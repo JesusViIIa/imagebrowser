@@ -11,7 +11,7 @@ export default function Card({img,title,link}) {
               const url = window.URL.createObjectURL(new Blob([buffer]));
               const link = document.createElement("a");
               link.href = url;
-              link.setAttribute("download", `${title}.png`); //or any other extension
+              link.setAttribute("download", `image.png`); //or any other extension
               document.body.appendChild(link);
               link.click();
             });

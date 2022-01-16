@@ -62,9 +62,12 @@
 }
 
 @media (max-width: 600px) {
+    .card {
+        width: 98%;
+    }
     img {
-        height: 100%;
-        width: 95%;
+        height: 90%;
+        width: 80%;
         border-radius: 5px;
         background-color: #fff;
         display: inline-block;
@@ -82,5 +85,8 @@
     }
     .title {
         font-size: small;
+    }
+    .containerimg {
+        width: auto;
     }
 }
