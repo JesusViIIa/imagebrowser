@@ -1,0 +1,42 @@
+.pagination {
+    display: flex;
+    max-width: 1200px;
+    flex-direction: column;
+}
+
+li {
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+    border: .5px solid #fff;
+    margin: 1px 1px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+span {
+    color: #fff;
+    font-size: small;
+    text-align: center;
+    margin: auto;
+    font-weight: 700;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #FFF;
+}
+
+.active {
+    border: 1px solid #000;
+}
+
+.next {
+    font-size: small;
+    margin: auto;
+}
+
+.text {
+    margin: auto;
+}
