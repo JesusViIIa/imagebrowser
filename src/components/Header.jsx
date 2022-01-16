@@ -18,7 +18,7 @@ export default function Header({setStateImages}) {
     const connectUnsplash = async (search) => {
         const res = await fetch(`https://api.unsplash.com/search/photos?per_page=20&page=${currentPage}&query= ${search}`, {
             headers:{
-                'Authorization': 'Client-ID Icjhl_G712n1MFR9DxpKhBVvsGF4EJ0WsRwG9OgS1bw'
+                'Authorization': 'Client-ID 0aJpHgDoauAgM__slrohv-stmdObY72L_zt-Q9Ph-dA'
             }
         })
         const data = await res.json()
